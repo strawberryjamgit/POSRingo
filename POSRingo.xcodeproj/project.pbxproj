@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39914E1C1B0DC17C0023F3B2 /* SalesHistoryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39914E1B1B0DC17C0023F3B2 /* SalesHistoryTableCell.xib */; };
+		39914E1F1B0DD0660023F3B2 /* SalesHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39914E1E1B0DD0660023F3B2 /* SalesHistoryTableViewCell.m */; };
+		39914E221B0DD7EF0023F3B2 /* ViewControllerSalesHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 39914E211B0DD7EF0023F3B2 /* ViewControllerSalesHistory.m */; };
+		39B370A91B2053D900CAC62C /* delete-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B370A81B2053D900CAC62C /* delete-icon.png */; };
+		812E53821B01E272009B0A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E53811B01E272009B0A36 /* main.m */; };
+		812E53851B01E272009B0A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E53841B01E272009B0A36 /* AppDelegate.m */; };
+		812E53881B01E272009B0A36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E53871B01E272009B0A36 /* ViewController.m */; };
+		812E538B1B01E272009B0A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812E53891B01E272009B0A36 /* Main.storyboard */; };
+		812E538D1B01E272009B0A36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812E538C1B01E272009B0A36 /* Images.xcassets */; };
+		812E53901B01E272009B0A36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 812E538E1B01E272009B0A36 /* LaunchScreen.xib */; };
+		812E539C1B01E272009B0A36 /* POSRingoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E539B1B01E272009B0A36 /* POSRingoTests.m */; };
+		812E53E61B03412A009B0A36 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 812E53E51B03412A009B0A36 /* libsqlite3.dylib */; };
+		812E53E81B03419C009B0A36 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812E53E71B03419C009B0A36 /* ExternalAccessory.framework */; };
+		812E53EA1B0341AA009B0A36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812E53E91B0341AA009B0A36 /* CoreGraphics.framework */; };
+		812E53EC1B0341B6009B0A36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812E53EB1B0341B6009B0A36 /* UIKit.framework */; };
+		812E53EE1B0341BF009B0A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812E53ED1B0341BF009B0A36 /* Foundation.framework */; };
+		812E53F11B03422D009B0A36 /* db_sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E53F01B03422D009B0A36 /* db_sqlite.m */; };
+		812E53F41B034268009B0A36 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E53F31B034268009B0A36 /* Goods.m */; };
+		812E53F71B03429F009B0A36 /* jam_Sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E53F51B03429F009B0A36 /* jam_Sync.m */; };
+		812E53FA1B04496A009B0A36 /* ViewControllerMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E53F91B04496A009B0A36 /* ViewControllerMainMenu.m */; };
+		812E540A1B047E4C009B0A36 /* UIImage+StackBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E54061B047E4C009B0A36 /* UIImage+StackBlur.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		812E540B1B047E4C009B0A36 /* zoomPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E54081B047E4C009B0A36 /* zoomPopup.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		812E540C1B047E4C009B0A36 /* zoomPopupClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 812E54091B047E4C009B0A36 /* zoomPopupClose.png */; };
+		812E540F1B047FBB009B0A36 /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E540D1B047FBB009B0A36 /* GridCell.m */; };
+		812E541A1B04969F009B0A36 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 812E54191B04969F009B0A36 /* btn.png */; };
+		812E541E1B0499F3009B0A36 /* btnmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 812E541D1B0499F3009B0A36 /* btnmenu.png */; };
+		812E54201B0590B8009B0A36 /* drop.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 812E541F1B0590B8009B0A36 /* drop.PNG */; };
+		812E54261B05A5C6009B0A36 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 812E54211B05A5C6009B0A36 /* back.png */; };
+		812E54271B05A5C6009B0A36 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 812E54221B05A5C6009B0A36 /* home.png */; };
+		812E54281B05A5C6009B0A36 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 812E54231B05A5C6009B0A36 /* next.png */; };
+		812E54291B05A5C6009B0A36 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 812E54241B05A5C6009B0A36 /* refresh.png */; };
+		812E542A1B05A5C6009B0A36 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 812E54251B05A5C6009B0A36 /* safari.png */; };
+		812E542D1B05A64A009B0A36 /* ViewControllerASP.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E542C1B05A64A009B0A36 /* ViewControllerASP.m */; };
+		812E54301B05E984009B0A36 /* ViewControllerPOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E542F1B05E984009B0A36 /* ViewControllerPOS.m */; };
+		812E54331B05ECDB009B0A36 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 812E54321B05ECDB009B0A36 /* Utility.m */; };
+		81F99DD71B0C323A00FD45E7 /* POSRIngo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 81F99DD61B0C323A00FD45E7 /* POSRIngo.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		812E53961B01E272009B0A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812E53741B01E272009B0A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812E537B1B01E272009B0A36;
+			remoteInfo = POSRingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39914E1B1B0DC17C0023F3B2 /* SalesHistoryTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SalesHistoryTableCell.xib; sourceTree = "<group>"; };
+		39914E1D1B0DD0660023F3B2 /* SalesHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SalesHistoryTableViewCell.h; path = ../controller/SalesHistoryTableViewCell.h; sourceTree = "<group>"; };
+		39914E1E1B0DD0660023F3B2 /* SalesHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SalesHistoryTableViewCell.m; path = ../controller/SalesHistoryTableViewCell.m; sourceTree = "<group>"; };
+		39914E201B0DD7EF0023F3B2 /* ViewControllerSalesHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSalesHistory.h; sourceTree = "<group>"; };
+		39914E211B0DD7EF0023F3B2 /* ViewControllerSalesHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSalesHistory.m; sourceTree = "<group>"; };
+		39B370A81B2053D900CAC62C /* delete-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete-icon.png"; sourceTree = "<group>"; };
+		812E537C1B01E272009B0A36 /* POSRingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POSRingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		812E53801B01E272009B0A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812E53811B01E272009B0A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		812E53831B01E272009B0A36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		812E53841B01E272009B0A36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		812E53861B01E272009B0A36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		812E53871B01E272009B0A36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		812E538A1B01E272009B0A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		812E538C1B01E272009B0A36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		812E538F1B01E272009B0A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		812E53951B01E272009B0A36 /* POSRingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POSRingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		812E539A1B01E272009B0A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812E539B1B01E272009B0A36 /* POSRingoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POSRingoTests.m; sourceTree = "<group>"; };
+		812E53E51B03412A009B0A36 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		812E53E71B03419C009B0A36 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		812E53E91B0341AA009B0A36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		812E53EB1B0341B6009B0A36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		812E53ED1B0341BF009B0A36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		812E53EF1B03422D009B0A36 /* db_sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = db_sqlite.h; sourceTree = "<group>"; };
+		812E53F01B03422D009B0A36 /* db_sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = db_sqlite.m; sourceTree = "<group>"; };
+		812E53F21B034268009B0A36 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		812E53F31B034268009B0A36 /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		812E53F51B03429F009B0A36 /* jam_Sync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jam_Sync.m; sourceTree = "<group>"; };
+		812E53F61B03429F009B0A36 /* jam_Sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jam_Sync.h; sourceTree = "<group>"; };
+		812E53F81B04496A009B0A36 /* ViewControllerMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerMainMenu.h; sourceTree = "<group>"; };
+		812E53F91B04496A009B0A36 /* ViewControllerMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerMainMenu.m; sourceTree = "<group>"; };
+		812E54051B047E4C009B0A36 /* UIImage+StackBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+StackBlur.h"; sourceTree = "<group>"; };
+		812E54061B047E4C009B0A36 /* UIImage+StackBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+StackBlur.m"; sourceTree = "<group>"; };
+		812E54071B047E4C009B0A36 /* zoomPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zoomPopup.h; sourceTree = "<group>"; };
+		812E54081B047E4C009B0A36 /* zoomPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zoomPopup.m; sourceTree = "<group>"; };
+		812E54091B047E4C009B0A36 /* zoomPopupClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zoomPopupClose.png; path = ../ZoomOutControl/zoomPopupClose.png; sourceTree = "<group>"; };
+		812E540D1B047FBB009B0A36 /* GridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
+		812E540E1B047FBB009B0A36 /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
+		812E54191B04969F009B0A36 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
+		812E541D1B0499F3009B0A36 /* btnmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnmenu.png; sourceTree = "<group>"; };
+		812E541F1B0590B8009B0A36 /* drop.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.PNG; sourceTree = "<group>"; };
+		812E54211B05A5C6009B0A36 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		812E54221B05A5C6009B0A36 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		812E54231B05A5C6009B0A36 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		812E54241B05A5C6009B0A36 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		812E54251B05A5C6009B0A36 /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari.png; sourceTree = "<group>"; };
+		812E542B1B05A64A009B0A36 /* ViewControllerASP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerASP.h; sourceTree = "<group>"; };
+		812E542C1B05A64A009B0A36 /* ViewControllerASP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerASP.m; sourceTree = "<group>"; };
+		812E542E1B05E984009B0A36 /* ViewControllerPOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPOS.h; sourceTree = "<group>"; };
+		812E542F1B05E984009B0A36 /* ViewControllerPOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPOS.m; sourceTree = "<group>"; };
+		812E54311B05ECDB009B0A36 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		812E54321B05ECDB009B0A36 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		81F99DD61B0C323A00FD45E7 /* POSRIngo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = POSRIngo.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812E53791B01E272009B0A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812E53EE1B0341BF009B0A36 /* Foundation.framework in Frameworks */,
+				812E53EC1B0341B6009B0A36 /* UIKit.framework in Frameworks */,
+				812E53EA1B0341AA009B0A36 /* CoreGraphics.framework in Frameworks */,
+				812E53E81B03419C009B0A36 /* ExternalAccessory.framework in Frameworks */,
+				812E53E61B03412A009B0A36 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812E53921B01E272009B0A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39914E1A1B0DC1450023F3B2 /* customcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				39914E1B1B0DC17C0023F3B2 /* SalesHistoryTableCell.xib */,
+			);
+			name = customcontroller;
+			sourceTree = "<group>";
+		};
+		812E53731B01E272009B0A36 = {
+			isa = PBXGroup;
+			children = (
+				81F99DD61B0C323A00FD45E7 /* POSRIngo.sqlite */,
+				812E53ED1B0341BF009B0A36 /* Foundation.framework */,
+				812E53EB1B0341B6009B0A36 /* UIKit.framework */,
+				812E53E91B0341AA009B0A36 /* CoreGraphics.framework */,
+				812E53E71B03419C009B0A36 /* ExternalAccessory.framework */,
+				812E53E51B03412A009B0A36 /* libsqlite3.dylib */,
+				812E537E1B01E272009B0A36 /* POSRingo */,
+				812E53981B01E272009B0A36 /* POSRingoTests */,
+				812E537D1B01E272009B0A36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		812E537D1B01E272009B0A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				812E537C1B01E272009B0A36 /* POSRingo.app */,
+				812E53951B01E272009B0A36 /* POSRingoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		812E537E1B01E272009B0A36 /* POSRingo */ = {
+			isa = PBXGroup;
+			children = (
+				39914E1A1B0DC1450023F3B2 /* customcontroller */,
+				812E54181B049682009B0A36 /* images */,
+				812E54041B047E4C009B0A36 /* ZoomOutControl */,
+				812E53E41B03410C009B0A36 /* printer */,
+				812E53E31B0340B8009B0A36 /* sync */,
+				812E53E21B034085009B0A36 /* model */,
+				812E53E11B034058009B0A36 /* controller */,
+				812E53E01B034032009B0A36 /* classes */,
+				812E53831B01E272009B0A36 /* AppDelegate.h */,
+				812E53841B01E272009B0A36 /* AppDelegate.m */,
+				812E53891B01E272009B0A36 /* Main.storyboard */,
+				812E538C1B01E272009B0A36 /* Images.xcassets */,
+				812E538E1B01E272009B0A36 /* LaunchScreen.xib */,
+				812E537F1B01E272009B0A36 /* Supporting Files */,
+			);
+			path = POSRingo;
+			sourceTree = "<group>";
+		};
+		812E537F1B01E272009B0A36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				812E53801B01E272009B0A36 /* Info.plist */,
+				812E53811B01E272009B0A36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		812E53981B01E272009B0A36 /* POSRingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				812E539B1B01E272009B0A36 /* POSRingoTests.m */,
+				812E53991B01E272009B0A36 /* Supporting Files */,
+			);
+			path = POSRingoTests;
+			sourceTree = "<group>";
+		};
+		812E53991B01E272009B0A36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				812E539A1B01E272009B0A36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		812E53E01B034032009B0A36 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				39914E1D1B0DD0660023F3B2 /* SalesHistoryTableViewCell.h */,
+				39914E1E1B0DD0660023F3B2 /* SalesHistoryTableViewCell.m */,
+				812E540D1B047FBB009B0A36 /* GridCell.m */,
+				812E540E1B047FBB009B0A36 /* GridCell.h */,
+				812E53F21B034268009B0A36 /* Goods.h */,
+				812E53F31B034268009B0A36 /* Goods.m */,
+				812E54311B05ECDB009B0A36 /* Utility.h */,
+				812E54321B05ECDB009B0A36 /* Utility.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		812E53E11B034058009B0A36 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				812E53861B01E272009B0A36 /* ViewController.h */,
+				812E53871B01E272009B0A36 /* ViewController.m */,
+				812E53F81B04496A009B0A36 /* ViewControllerMainMenu.h */,
+				812E53F91B04496A009B0A36 /* ViewControllerMainMenu.m */,
+				812E542B1B05A64A009B0A36 /* ViewControllerASP.h */,
+				812E542C1B05A64A009B0A36 /* ViewControllerASP.m */,
+				812E542E1B05E984009B0A36 /* ViewControllerPOS.h */,
+				812E542F1B05E984009B0A36 /* ViewControllerPOS.m */,
+				39914E201B0DD7EF0023F3B2 /* ViewControllerSalesHistory.h */,
+				39914E211B0DD7EF0023F3B2 /* ViewControllerSalesHistory.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		812E53E21B034085009B0A36 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				812E53EF1B03422D009B0A36 /* db_sqlite.h */,
+				812E53F01B03422D009B0A36 /* db_sqlite.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		812E53E31B0340B8009B0A36 /* sync */ = {
+			isa = PBXGroup;
+			children = (
+				812E53F51B03429F009B0A36 /* jam_Sync.m */,
+				812E53F61B03429F009B0A36 /* jam_Sync.h */,
+			);
+			path = sync;
+			sourceTree = "<group>";
+		};
+		812E53E41B03410C009B0A36 /* printer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = printer;
+			sourceTree = "<group>";
+		};
+		812E54041B047E4C009B0A36 /* ZoomOutControl */ = {
+			isa = PBXGroup;
+			children = (
+				812E54051B047E4C009B0A36 /* UIImage+StackBlur.h */,
+				812E54061B047E4C009B0A36 /* UIImage+StackBlur.m */,
+				812E54071B047E4C009B0A36 /* zoomPopup.h */,
+				812E54081B047E4C009B0A36 /* zoomPopup.m */,
+			);
+			path = ZoomOutControl;
+			sourceTree = "<group>";
+		};
+		812E54181B049682009B0A36 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				39B370A81B2053D900CAC62C /* delete-icon.png */,
+				812E54091B047E4C009B0A36 /* zoomPopupClose.png */,
+				812E54211B05A5C6009B0A36 /* back.png */,
+				812E54221B05A5C6009B0A36 /* home.png */,
+				812E54231B05A5C6009B0A36 /* next.png */,
+				812E54241B05A5C6009B0A36 /* refresh.png */,
+				812E54251B05A5C6009B0A36 /* safari.png */,
+				812E541F1B0590B8009B0A36 /* drop.PNG */,
+				812E541D1B0499F3009B0A36 /* btnmenu.png */,
+				812E54191B04969F009B0A36 /* btn.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		812E537B1B01E272009B0A36 /* POSRingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812E539F1B01E272009B0A36 /* Build configuration list for PBXNativeTarget "POSRingo" */;
+			buildPhases = (
+				812E53781B01E272009B0A36 /* Sources */,
+				812E53791B01E272009B0A36 /* Frameworks */,
+				812E537A1B01E272009B0A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSRingo;
+			productName = POSRingo;
+			productReference = 812E537C1B01E272009B0A36 /* POSRingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		812E53941B01E272009B0A36 /* POSRingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812E53A21B01E272009B0A36 /* Build configuration list for PBXNativeTarget "POSRingoTests" */;
+			buildPhases = (
+				812E53911B01E272009B0A36 /* Sources */,
+				812E53921B01E272009B0A36 /* Frameworks */,
+				812E53931B01E272009B0A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812E53971B01E272009B0A36 /* PBXTargetDependency */,
+			);
+			name = POSRingoTests;
+			productName = POSRingoTests;
+			productReference = 812E53951B01E272009B0A36 /* POSRingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		812E53741B01E272009B0A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = strawberryjam;
+				TargetAttributes = {
+					812E537B1B01E272009B0A36 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 43349RYW9E;
+					};
+					812E53941B01E272009B0A36 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 812E537B1B01E272009B0A36;
+					};
+				};
+			};
+			buildConfigurationList = 812E53771B01E272009B0A36 /* Build configuration list for PBXProject "POSRingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 812E53731B01E272009B0A36;
+			productRefGroup = 812E537D1B01E272009B0A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				812E537B1B01E272009B0A36 /* POSRingo */,
+				812E53941B01E272009B0A36 /* POSRingoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		812E537A1B01E272009B0A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812E542A1B05A5C6009B0A36 /* safari.png in Resources */,
+				812E54201B0590B8009B0A36 /* drop.PNG in Resources */,
+				812E54291B05A5C6009B0A36 /* refresh.png in Resources */,
+				812E541A1B04969F009B0A36 /* btn.png in Resources */,
+				812E54261B05A5C6009B0A36 /* back.png in Resources */,
+				812E54281B05A5C6009B0A36 /* next.png in Resources */,
+				39914E1C1B0DC17C0023F3B2 /* SalesHistoryTableCell.xib in Resources */,
+				81F99DD71B0C323A00FD45E7 /* POSRIngo.sqlite in Resources */,
+				812E538B1B01E272009B0A36 /* Main.storyboard in Resources */,
+				812E53901B01E272009B0A36 /* LaunchScreen.xib in Resources */,
+				39B370A91B2053D900CAC62C /* delete-icon.png in Resources */,
+				812E54271B05A5C6009B0A36 /* home.png in Resources */,
+				812E538D1B01E272009B0A36 /* Images.xcassets in Resources */,
+				812E540C1B047E4C009B0A36 /* zoomPopupClose.png in Resources */,
+				812E541E1B0499F3009B0A36 /* btnmenu.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812E53931B01E272009B0A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		812E53781B01E272009B0A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812E53881B01E272009B0A36 /* ViewController.m in Sources */,
+				812E53FA1B04496A009B0A36 /* ViewControllerMainMenu.m in Sources */,
+				812E53F11B03422D009B0A36 /* db_sqlite.m in Sources */,
+				812E54301B05E984009B0A36 /* ViewControllerPOS.m in Sources */,
+				812E540F1B047FBB009B0A36 /* GridCell.m in Sources */,
+				812E53F41B034268009B0A36 /* Goods.m in Sources */,
+				812E53F71B03429F009B0A36 /* jam_Sync.m in Sources */,
+				812E540A1B047E4C009B0A36 /* UIImage+StackBlur.m in Sources */,
+				812E542D1B05A64A009B0A36 /* ViewControllerASP.m in Sources */,
+				812E53851B01E272009B0A36 /* AppDelegate.m in Sources */,
+				812E540B1B047E4C009B0A36 /* zoomPopup.m in Sources */,
+				812E53821B01E272009B0A36 /* main.m in Sources */,
+				39914E221B0DD7EF0023F3B2 /* ViewControllerSalesHistory.m in Sources */,
+				812E54331B05ECDB009B0A36 /* Utility.m in Sources */,
+				39914E1F1B0DD0660023F3B2 /* SalesHistoryTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812E53911B01E272009B0A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812E539C1B01E272009B0A36 /* POSRingoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		812E53971B01E272009B0A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 812E537B1B01E272009B0A36 /* POSRingo */;
+			targetProxy = 812E53961B01E272009B0A36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		812E53891B01E272009B0A36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812E538A1B01E272009B0A36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		812E538E1B01E272009B0A36 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812E538F1B01E272009B0A36 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		812E539D1B01E272009B0A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		812E539E1B01E272009B0A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		812E53A01B01E272009B0A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = POSRingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		812E53A11B01E272009B0A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = POSRingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		812E53A31B01E272009B0A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = POSRingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POSRingo.app/POSRingo";
+			};
+			name = Debug;
+		};
+		812E53A41B01E272009B0A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = POSRingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POSRingo.app/POSRingo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		812E53771B01E272009B0A36 /* Build configuration list for PBXProject "POSRingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812E539D1B01E272009B0A36 /* Debug */,
+				812E539E1B01E272009B0A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812E539F1B01E272009B0A36 /* Build configuration list for PBXNativeTarget "POSRingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812E53A01B01E272009B0A36 /* Debug */,
+				812E53A11B01E272009B0A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812E53A21B01E272009B0A36 /* Build configuration list for PBXNativeTarget "POSRingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812E53A31B01E272009B0A36 /* Debug */,
+				812E53A41B01E272009B0A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 812E53741B01E272009B0A36 /* Project object */;
+}
